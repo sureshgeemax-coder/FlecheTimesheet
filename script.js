@@ -324,7 +324,7 @@ async function generateExcel(staffName, companyName, clientName, month, year) {
     const clientSignatureLabelCell = worksheet.getCell(currentRow, 1);
     clientSignatureLabelCell.value = 'Client Name and Signature:';
     clientSignatureLabelCell.font = { bold: true };
-    worksheet.getCell(currentRow, 2).value = clientName;
+    worksheet.getCell(currentRow, 2).value = 'Richard Chong';
     
     // Date cell with bold "Date :" part
     const clientDateCell = worksheet.getCell(currentRow, 4);
